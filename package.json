@@ -1,8 +1,7 @@
 {
-  "name": "node-red-contrib-usbhid",
+  "name": "node-red-contrib-usbhid-ext",
   "version": "1.0.0",
-  "description": "A node-hid (USB HID device access library) wrapper for nodered",
-  
+  "description": "A fork of node-red-contrib-usbhid, node-hid (USB HID device access library) wrapper for nodered",
   "keywords": [
     "node-red",
     "usbhid",
@@ -18,7 +17,7 @@
   },
   "dependencies": {
     "node-hid": "^3.0.0"
-   },
+  },
   "node-red": {
     "nodes": {
       "usbhid": "usbhid/usbhid.js"

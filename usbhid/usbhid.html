@@ -4,6 +4,7 @@
     defaults: {
       vid: {value: '', required: true},
       pid: {value: '', required: true},
+      path: {value: '', required: true},
       name: {value: ''}
     },
     label: function(){
@@ -23,6 +24,11 @@
   <div class="form-row">
     <label for="node-config-input-pid"><i class="fa "></i> PID </label>
     <input type="text" id="node-config-input-pid" placeholder="">
+  </div>
+
+  <div class="form-row">
+    <label for="node-config-input-path"><i class="fa "></i> Path </label>
+    <input type="text" id="node-config-input-path" placeholder="/dev/hidraw0">
   </div>
 
     <div class="form-row">
